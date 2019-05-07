@@ -6,7 +6,7 @@ import com.jwt.ejb.business.Hello;
 @Stateless
 public class HelloBean implements Hello {
 	public HelloBean() {
-		
+		System.out.println("ahoj");
 	}
 	
 	public String sayHello() {
